@@ -1,0 +1,8 @@
+[Unit]
+Description=GPU Utilisation service
+
+[Service]
+ExecStart=/root/gpuutilisation.sh
+
+[Install]
+WantedBy=multi-user.target
